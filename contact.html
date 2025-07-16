@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <span class="logo"></span>
+      <span class="navbar-title">your name</span>
+    </div>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html">Projects</a>
+      <a href="photography.html">Photography</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <main class="container">
+    <header class="cv-header">
+      <h1>Contact Me</h1>
+      <p class="subtitle">Get in touch!</p>
+    </header>
+    <section>
+      <form action="mailto:your@email.com" method="post" enctype="text/plain" style="max-width:400px;margin:auto;">
+        <label>Name:</label><br>
+        <input type="text" name="name" required style="width:100%;margin-bottom:10px;"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required style="width:100%;margin-bottom:10px;"><br>
+        <label>Message:</label><br>
+        <textarea name="message" required style="width:100%;margin-bottom:10px;"></textarea><br>
+        <input type="submit" value="Send" style="background:var(--accent);color:#fff;border:none;padding:0.8em 1.5em;border-radius:var(--radius);cursor:pointer;">
+      </form>
+    </section>
+    <footer class="cv-footer">
+      © all rights reserved 2025
+    </footer>
+  </main>
+</body>
+</html>
